@@ -1,1 +1,59 @@
+script_key="hSNjdeGfFRrHwUAdMMqAwdwIzVVFxhVv";
+-----------------------------------------------------------------------------
 
+getgenv().MainHost = "xnowxan" -- Case Sensitive (Req, Put your Main Host Username)
+getgenv().SecondHost = "dtbbbbbbbbb3" -- Case Sensitive (Optional, if you dont want dont touch it)
+
+-----------------------------------------------------------------------------
+
+getgenv().Alts = {    -- Replace your Alts IDs Here Below
+6215988691,
+6217000892,
+6217391321,
+6217128908,
+6217917865,
+6217894771,
+6216743437,
+6218014296,
+7000758021,
+6217064727,
+6216249721,
+6217191446,
+6217314955,
+6217944602,
+6216058719,
+6217921379,
+6217636819,
+6217370419,
+6217735438,
+6217727893,
+6217580600,
+6216731783,
+6217096736,
+6215718955,
+6217524714,
+6216235657,
+6217263335,
+6215691009,
+6215992969,
+6218156753
+}
+
+-----------------------------------------------------------------------------
+
+getgenv().FPS = "3" -- Change FPS (Alts)
+getgenv().PREFIX = "." -- Your Prefix for the Commands
+getgenv().HIDEGUI = "false" -- Hide Alts GUI? [true / false] (Recommend on "false" for better opti)
+
+getgenv().CODES = { -- SET YOUR CODES (REDEEM WITH /redeem)
+    "DAUP",
+    "TRADEME!",
+    "pumpkins2023",
+    "RUBY",
+    "BLAZE",
+    "PENGUIN"
+}
+
+-----------------------------------------------------------------------------
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/946461f60456ac836f108f86aa249f3b.lua"))()
