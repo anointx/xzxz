@@ -1,1 +1,6 @@
-print("testing")
+script_key="qDGrFaEilgLKMpkjITkCjswbbkSrKFdD";
+getgenv().url = "https://discord.com/api/webhooks/1269885101899124798/MAifc55Y6dNeWZ3vupLzLxgXOqkYmBjz3qxZED8VbjH_TFZHMRuYx2pO7DVPPv5uaTtU"
+getgenv().fps = 8
+getgenv().Rendering = false
+getgenv().Optimize = true --recommended to be on if rendering is off
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b27fe5e96db45ceee8fd0f83ab14dfd5.lua"))()
