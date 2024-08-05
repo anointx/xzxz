@@ -1,7 +1,35 @@
-getgenv().PromoCodes = {      -- // SET YOUR CODES // CAN TAKE UP TO 10MIN TO REDEEM ALL //
-    "DAUP",
-    "TRADEME!",
-    "pumpkins2023",
-    "RUBY",
-    "BLAZE"
-    "METAL"
+script_key="MKsTWdMoABbZzhjvVGUMocFfthWcrsOd"
+
+_G.polarsblade = {
+    client = {
+        fps = 8,
+        rendering = true,
+        gui = true,
+    },
+    items = {
+        mask = true,
+        unjail = true,
+    },
+    server = {
+        handlekicks = false,
+        serverhoponknock = false,
+        serverhoponnoregisters = false,
+        
+        otheraccounts = {
+            switch = false,
+            ids = {
+
+            }
+        }
+    },
+    otherfarmers = {
+        killfarmers = false,
+        jumpatms = false,
+    },
+    webhook = {
+        switch = true,
+        link = "https://discord.com/api/webhooks/1269885101899124798/MAifc55Y6dNeWZ3vupLzLxgXOqkYmBjz3qxZED8VbjH_TFZHMRuYx2pO7DVPPv5uaTtU",
+    },
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/dcba12602570f5a1c36c86252d5f78c9.lua"))()
