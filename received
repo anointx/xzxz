@@ -1,3 +1,11 @@
+getgenv().PromoCodes = {      -- // SET YOUR CODES // CAN TAKE UP TO 10MIN TO REDEEM ALL //
+    "DAUP",
+    "TRADEME!",
+    "pumpkins2023",
+    "RUBY",
+    "BLAZE"
+    "METAL"
+
 script_key="MKsTWdMoABbZzhjvVGUMocFfthWcrsOd"
 
 _G.configuration = {
