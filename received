@@ -41,9 +41,10 @@ getgenv().Alts = {    -- Replace your Alts IDs Here Below
 
 -----------------------------------------------------------------------------
 
-getgenv().FPS = "8" -- Change FPS (Alts)
-getgenv().PREFIX = "." -- Your Prefix for the Commands
+getgenv().FPS = "3" -- Change FPS (Alts)
+getgenv().PREFIX = "/" -- Your Prefix for the Commands
 getgenv().HIDEGUI = "false" -- Hide Alts GUI? [true / false] (Recommend on "false" for better opti)
+getgenv().executortype = "false" -- False: Hydrogen, Fluxus, Delta X <| | |> True: Codex, Arceus x, Vega X
 
 getgenv().CODES = { -- SET YOUR CODES (REDEEM WITH /redeem)
     "DAUP",
