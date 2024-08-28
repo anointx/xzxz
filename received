@@ -1,1 +1,67 @@
+Seller GUI Script
+```
+script_key="nRhSMoouVzeUawjRJAnKCIKKIMxCdOoz";
 
+-----------------------------------------------------------------------------
+
+-- YOU CAN USE /manage-gui IN #BOT-CMDS TO CONTROL YOUR ACCOUNT FROM OUR DISCORD BOT!
+
+Account_Cookie = "" -- [OPTIONAL] Used for account utilities like resetting & getting private server link and accepting friend requests.
+-- Your account cookie is only sent to Roblox servers.
+
+getgenv().FostersSettings = {
+    ["SmallUI"] = true,                 -- Decrase the size of the UI
+    ["WebChanges"] = true,              -- Recommended, will make your emulator experience more web Roblox like. (ex. clicking "/" will start chatting)
+    ["Alts"] = {                        -- Put your alt ids here, you do NOT need to execute the script on the alts.
+            6215988691,
+6217000892,
+6217391321,
+6217128908,
+6217917865,
+6217894771,
+6216743437,
+6218014296,
+7000758021,
+6217064727,
+6216249721,
+6217191446,
+6217314955,
+6217944602,
+6216058719,
+6217921379,
+6217636819,
+6217370419,
+6217735438,
+6217727893,
+6217580600,
+6216731783,
+6217096736,
+6215718955,
+6217524714,
+6216235657,
+6217263335,
+6215691009,
+6215992969,
+6218156753
+    },
+
+    ["Logs Webhook"] = "https://discord.com/api/webhooks/1271266345924956233/538mpIUNePW_toVYFCrCsTvd4sL6-NvthuzuugKW3nRJZ1EkZ64tNVZRK9NuOHHihAvW", -- The webhook where logs will be sent, leave at "" to disable
+    ["Proofs Webhook"] = "https://discord.com/api/webhooks/1271266516033077288/BQLXP72OI4-ycNNhYUNmmRP-iyj7HIGIYybtLLIA7NSZgtc_R5NY9eBpS5pezFAmrPdu", -- The webhook where proofs will be sent, leave at "" to disable
+
+    -- Keep in mind every message is filtered by Roblox, {buyer} will turn into the buyers displayname.
+    -- Leaving these messages on default is highly recommended.
+    
+    ["Messages"] = {
+        ["Buyer Goal Finished"] = "{buyer} Thank you, leave the game and make sure to vouch!",
+        ["Extra Cash Pickup"] = "{buyer} Stop picking up cash or you will be kicked!",
+        ["Auto Finished Kick Warning"] = "{buyer} Please leave the game or you will be kicked!",
+        ["No Goal Set Pickup Warning"] = "{buyer} Please wait a moment before picking up cash!",
+        ["Shout on set goal"] = "{buyer} Start picking up your cash!"
+    }
+    
+}
+
+-----------------------------------------------------------------------------
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cef2dea14de16d7a12c607d7825d3c88.lua"))()
+```
